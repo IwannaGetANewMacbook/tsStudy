@@ -1,0 +1,11 @@
+// JS -> TS 로 컴파일 할 때 주는 옵션들을 여기서 설정.
+
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+  }
+}
+
+
+
