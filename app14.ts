@@ -46,7 +46,7 @@ type Bike = {
   color: string
 } 
 
-function mmm (x: Car | Bike) {
+function mmmm (x: Car | Bike) {
   // 여기서 in 키워드로 narrowing 할려해도 서로 똑같은 속성이라 사용불가..
   if (x.wheel === "4EA" ) {
     // x의 wheel이 4개이면, 즉 x 가 Car 타입이면 실행시키는 if문.
